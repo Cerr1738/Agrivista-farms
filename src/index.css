@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 1200px;
+  background-color: rgb(225, 231, 232);
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  body {
+      max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  body {
+      max-width: 100%;
+  }
+}
+
+header {
+  background-color: white;
+  display: flex;
+  position: fixed;
+}
+
+h4 {
+  font-size: larger;
+  margin-right: 180px;
+  margin-left: 50px;
+}
+
+.header-nav {
+  align-items: center;
+  background-color: #1E1E1E99;
+}
+
+img {
+  width: 1262px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  color: #204E51;
+  width: 1262px;
+}
+
+.header-list ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header-button {
+  display: flex;
+  gap: 0.5rem;
+  width: 150px;
+}
+
+.header-button button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header-login {
+  color: white;
+  background: #204E51;
+  border: none;
+}
+
+.header-signup {
+  color: #204E51;
+  border: 1px solid #204E51;
+  background: transparent;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  nav {
+      width: 100%;
+  }
+
+  .burger-menu {
+      display: block;
+      margin-right: 30px;
+  }
+
+  .header-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      padding: 1rem;
+  }
+
+  .header-list ul {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+
+  .header-button {
+      display: none;
+      flex-direction: column;
+      gap: 0.5rem;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: white;
+      padding: 1rem;
+  }
+
+  .header-list.active {
+      display: flex;
+  }
+
+  .header-button.active {
+      display: flex;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  .burger-menu {
+      display: none;
+  }
+}
+
+.body {
+  margin-top: -600px;
+  text-align: center;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.body h1 {
+  color: white;
+  font-size: 70px;
+  width: 800px;
+  text-align: center;
+  margin-left: 200px;
+}
+
+.body p {
+  color: white;
+  width: 600px;
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.body button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.body-getstarted {
+  color: white;
+  background-color: #204E51;
+  border: none;
+}
+
+.body-learn {
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .header-nav img {
+      width: 100%;
+      height: 450px;
+  }
+
+  .body {
+      margin-left: -100px;
+  }
+
+  .body h1 {
+      width: 100%;
+      font-size: 30px;
+      margin-top: 190px;
+      margin-left: 100px;
+  }
+
+  .body p {
+      width: 100%;
+      margin-left: 150px;
+      font-size: 10px;
+  }
+
+  .body-button {
+      margin-left: 100px;
+      width: 100%;
+  }
+
+  .body-button button {
+      width: 90px;
+      font-size: 10px;
+  }
+}
+
+
