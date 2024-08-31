@@ -3,7 +3,7 @@ import './App.css';
 import calltoaction from "./pictures/calltoaction.png";
 import check from './pictures/check.png';
 import grass from './pictures/grass.png';
-import Group from './pictures/Group.png';
+import Group1 from './pictures/Group1.png';
 import Group2 from './pictures/Group2.png';
 import icon from './pictures/icon.png';
 import icons from './pictures/iconsss.png';
@@ -92,7 +92,7 @@ function App() {
             <h5>Website Content</h5>
           </div>
           <div className="blog">
-            <img src={Group} alt="" />
+            <img src={Group1} alt="" />
             <h5>Content Strategy and Consulting</h5>
           </div>
 
@@ -173,7 +173,7 @@ function App() {
             </div>
 
             <div className="choose-one">
-              <img src={rating} alt="" />
+              <img src={Localteam} alt="" />
               <div>
                 <h2>20</h2>
                 <p>Local Team Members</p>

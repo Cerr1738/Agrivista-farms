@@ -31,8 +31,8 @@ header{
  
 }
 h4{
-  font-size: larger;
-  margin-right: 180px;
+  font-size: x-large;
+  /* margin-right: 100px; */
   margin-left: 50px;
 }
 
@@ -60,7 +60,8 @@ nav {
 .header-list ul {
   list-style-type: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
+  font-size: large;
 }
 
 .header-button {
@@ -310,12 +311,14 @@ nav {
 .service h1{
   font-size: 50px;
   color: #204E51;
+  text-align: center;
 
 }
 .service p{
   width: 500px;
   margin-left: 330px;
   font-size: 20px;
+  text-align: center;
 
   
 }
@@ -347,7 +350,7 @@ nav {
   text-align: center;
 }
 .blog img{
-  background-color: white;
+  background:none;
   width: 50px;
   align-items: center;
   margin-left: 40px;
@@ -408,6 +411,7 @@ nav {
 .content2 img{
   width: 120px;
   border-radius: 10px;
+  
 
 }
 .products{
@@ -545,6 +549,7 @@ nav {
   width: 120px;
   height: 120px;
   margin-left: 40px;
+  background:#204E51;
 }
 
 
@@ -670,7 +675,7 @@ nav {
 .stars img {
   width: 30px;
   height: 30px;
-  background-color: #204E51;
+  background:none;
 }
 
 .slider-container {
@@ -682,7 +687,7 @@ nav {
 .slider-container button img {
   width: 15px;
   align-items: center;
-  background-color: rgb(225, 231, 232);
+  background:none;
 }
 
 .slider-container button {
@@ -696,9 +701,15 @@ nav {
 
   
 }
+.next{
+  background-color: white;
+  margin-left: 1050px;
+  margin-top: -10px;
+}
 .prev{
   margin-left: 60px;
-  margin-right: 1000px;
+  background-color: white;
+
 }
 
 @media screen and (max-width:768px) and (min-width: 480px) {
@@ -733,9 +744,11 @@ nav {
  }
  .prev{
   margin-left: 10px;
-   margin-right: 350px;
+   /* margin-right: 350px; */
  }
- 
+ .next{
+  margin-right: 200px;
+ }
 }
 
 .blog-sect{
@@ -845,7 +858,7 @@ footer{
 }
 footer img{
   width: 150px;
-  background-color: #204E51;
+  background:none;
 }
 .pages ul, .about ul{
   display: block;
